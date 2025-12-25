@@ -1233,7 +1233,7 @@ def index():
         <div class="row align-items-center">
             <div class="col-lg-6" data-aos="fade-right">
                 <h1 class="hero-title animate__animated animate__fadeInUp">
-                    Smart Price Comparison Made Simple
+                     Ecommerce PriceComparison 
                 </h1>
                 <p class="lead text-dark mb-4 animate__animated animate__fadeInUp animate__delay-1s" style="font-size: 1.25rem;">
                     Upload product images or search by keywords to find the best prices across 
@@ -2407,4 +2407,5 @@ if __name__ == '__main__':
         host='0.0.0.0',
         port=5000,
         use_reloader=False
+
     )
