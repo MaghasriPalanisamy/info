@@ -2324,6 +2324,7 @@ def admin_dashboard():
     <h1>Admin Dashboard</h1>
     <p>Admin panel will be implemented in the next version.</p>
     <a href="/">Back to Home</a>
+    {% block main_content %}{% endblock %}
 </body>
 </html>
 ''')
@@ -2409,3 +2410,4 @@ if __name__ == '__main__':
         use_reloader=False
 
     )
+
