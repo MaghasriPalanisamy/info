@@ -1138,8 +1138,8 @@ def index():
     except:
         matches = []
     
-    template = BASE_TEMPLATE.replace('{% block main_content %}{% endblock %}', '''
-{% block main_content %}
+    template = BASE_TEMPLATE.replace('{% block content %}{% endblock %}', '''
+{% block content %}
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: rgba(30, 41, 59, 0.95); backdrop-filter: blur(10px);">
     <div class="container">
@@ -2410,4 +2410,5 @@ if __name__ == '__main__':
         use_reloader=False
 
     )
+
 
